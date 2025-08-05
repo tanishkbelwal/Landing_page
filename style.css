@@ -425,3 +425,28 @@ video {
   margin-bottom: 8px;
 }
 
+#cta-button {
+  position: absolute;
+  top: -60%; /* was 20%, now moved higher */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  text-decoration: none;
+}
+
+#cta-button button {
+  background-color: #95c11e;
+  color: black;
+  font-size: 1.6vw;          /* Increased from 1.2vw */
+  font-weight: bold;
+  padding: 20px 50px;        /* Increased from 15px 30px */
+  border: none;
+  border-radius: 40px;       /* Slightly more rounded */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#cta-button button:hover {
+  background-color: black;
+  color: #95c11e;
+  border: 2px solid #95c11e;
+}
